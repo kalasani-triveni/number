@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-shadow:2px 2px greenyellow;
+            color:rgb(214, 76, 214);
+        }
+        body{
+            background-image: url('zoo3.jpg');
+            background-repeat: no-repeat;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        button:hover
+        {
+            background-color: lightgreen;
+        }
+        #guessinput
+        {
+            background-color: rgb(214, 85, 214);
+        }
+    </style>
+</head>
+<body>
+         <div class="container">
+        <h2>Guess the number</h2>
+        <img src="css.jpg">
+        <p>Guess the number between 1 to 100</p>
+        <input type="number" id="guessinput">
+        <button id="btn">submit</button>
+        <p id="msg"></p>
+    </div>
+</body>
+<script src="number.js"></script>
+</html>
